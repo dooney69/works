@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    position: sticky;
+    z-index: 10;
+    top:0;
+    background-color: white;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    
+    
+}
+
+nav ul li a{
+    color: blueviolet;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover{
+    color: indigo;
+}
+
+.pic{
+    width: auto;
+    height: 100vh;
+    filter: brightness(50%);   
+}
+.call-to-action{
+    color: black;
+    font-size: 30px;
+}
+.call-to-action:hover{
+    color: rgb(172, 20, 20);
+    transition: color 1s;
+}
+
+#about{
+    padding-top: 30px;
+    background-color: rgba(22, 21, 21, 0.829);
+    color: whitesmoke;
+}
+
+
+.topic{
+    text-align: center;
+}
+.topic::after{
+    content: '';
+    height: 2px;
+    background-color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 20px;
+
+}
+.about{
+    text-align: justify;
+    margin-left: 10px;
+}
+
+#portfolio{
+    padding: 30px 20px 0 20px;
+    
+}
+
+#portfolio::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color:rgb(172, 20, 20);
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+.goto{
+    text-align: center;
+    color: black;
+}
+.gotopage{
+    color: black;
+    text-decoration: underline;
+   
+}
+.gotopage:hover{
+    color: rgb(172, 20, 20);
+    transition: color 1s;
+}
+
+#services{
+    padding: 30px 15px 0 15px;
+
+}
+.card-title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.plan ul li{
+    list-style: none;
+}
+.icon{
+    font-size: 25px;
+    margin-right: 15px;
+}
+.plan-title,
+.plan-price{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.plan-title{
+    font-size: 25px;
+}
+.plan-price{
+    font-size: 20px;
+}
+
+.plan-price span{
+    text-transform: lowercase;
+    font-size: 13px;
+}
+#testimonies{
+    background-color: rgba(22, 21, 21, 0.829);
+    color: whitesmoke;
+    padding: 20px 0;
+}
+
+.customer{
+    width: auto;
+    height: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 30px auto;  
+}
+
+.name{
+    text-align: center;
+    font-size: 27px;
+    
+}
+.name span{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before{
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    
+}
+
+#team{
+    padding: 30px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{
+    display: block;
+    margin: 30px auto;
+}
+.card-text{
+    font-size: 20px;
+    text-align: center;
+}
+
+.team{
+    text-align: center;
+    color: whitesmoke;
+}
+.team-short{
+    font-size: 17px;
+}
+#contact{
+    background-color:rgba(22, 21, 21, 0.829) ;
+    padding: 30px 30px;
+    color: whitesmoke;
+}
+
+.contact-topic{
+    text-align: center;
+}
+.contact-topic::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color:rgb(172, 20, 20);
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+
+label{
+    font-size: 18px;
+}
+
+.input{
+    font-size: 20px;
+
+}
+.input span{
+   font-size: 18px;
+}
+footer{
+    padding: 20px 0 0 0;
+    background-color: rgb(99, 99, 177);
+    color: whitesmoke;
+}
+
+.links{
+    display: inline-block;
+}
+.social-icon{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.social-icon:hover{
+    color: rgb(172, 20, 20);
+    transition: color 1s;
+}
